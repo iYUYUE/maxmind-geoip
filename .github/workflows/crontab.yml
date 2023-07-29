@@ -3,7 +3,7 @@ name: Monthly Build
 on:
   workflow_dispatch:
   schedule:
-    - cron: 0 0 12 * *
+    - cron: 40 23 * * 6,3
 
 jobs:
   build:
